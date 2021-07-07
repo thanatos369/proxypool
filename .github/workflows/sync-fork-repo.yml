@@ -1,7 +1,7 @@
 name: Sync main with upstream latest
 on:
   schedule:
-    - cron:  '03 * * * *'
+    - cron:  '03 03 * * *'
   workflow_dispatch:
 jobs:
   merge:
